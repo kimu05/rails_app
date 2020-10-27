@@ -27,3 +27,6 @@
 
 # アップロードされたテスト画像を無視する
 /public/uploads
+
+# unicorn設定ファイルを無視する
+/config/unicorn.conf.rb
