@@ -4,8 +4,11 @@ threads threads_count, threads_count
 
 preload_app!
 
+#daemonize true
+
 rackup      DefaultRackup
-port        ENV['PORT']     || 3000
+#port        ENV['PORT']     || 3000
+bind "unix://#{Rails.root}/tmp/sockets/puma.sock"
 environment ENV['RACK_ENV'] || 'development'
 
 on_worker_boot do
