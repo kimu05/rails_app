@@ -27,3 +27,6 @@
 
 # アップロードされたテスト画像を無視する
 /public/uploads
+
+# unicorn設定ファイルを無視
+/var/www/rails_app/config/unicorn.conf.rb
