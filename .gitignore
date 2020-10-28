@@ -30,3 +30,6 @@
 
 # unicorn設定ファイルを無視
 /var/www/rails_app/config/unicorn.conf.rb
+
+# secretファイルを無視
+/var/www/rails_app/config/secrets.yml
