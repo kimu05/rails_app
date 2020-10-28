@@ -13,6 +13,9 @@ rerun.txt
 pickle-email-*.html
 config/unicorn.conf.rb
 
+# アップロードされたテスト画像を無視する
+/public/uploads
+
 # TODO Comment out this rule if you are OK with secrets being uploaded to the repo
 config/initializers/secret_token.rb
 config/master.key
